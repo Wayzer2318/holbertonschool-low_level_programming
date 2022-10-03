@@ -4,7 +4,13 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**                                                                                                                                                                     
+ * main - function                                                                                                                                                      
+ *                                                                                                                                                                      
+ * Return: exit status code                                                                                                                                             
+ */ 
 int main(void)
+
 {
 	int n;
 

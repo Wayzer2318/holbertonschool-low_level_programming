@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-int main (void)
+int main(void)
 {
 	int i;
 	char ch[] = "_putchar";
@@ -13,5 +13,6 @@ int main (void)
 	for (i = 0; ch[i]; i++)
 		putchar(ch[i]);
 
-	return(0);
+	putchar('\n');
+	return (0);
 }

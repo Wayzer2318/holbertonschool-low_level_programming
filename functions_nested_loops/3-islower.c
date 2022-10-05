@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *-islower - function
+ *_islower - function
  */
 
 int _islower(int c)

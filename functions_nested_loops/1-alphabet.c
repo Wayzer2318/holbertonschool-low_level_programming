@@ -3,8 +3,6 @@
  * main - Entry point
  * Description: fonction
  * Return: 0
- * print_alphabet - function
- * description: fonction that print the alphabet
  */
 
 int main(void)

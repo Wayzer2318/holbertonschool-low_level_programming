@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: fonction
- * Return: 0
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
 
 int main(void)

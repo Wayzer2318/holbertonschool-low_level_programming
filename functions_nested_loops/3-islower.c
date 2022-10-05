@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
+ *@c - the caractere to check
  *_islower - function
  */
 

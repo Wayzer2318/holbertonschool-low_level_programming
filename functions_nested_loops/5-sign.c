@@ -5,11 +5,10 @@
  * @c: the caractere to check.
  * Return: return 1 or 0
  */
-
-int c
-
 int print_sign(int n)
 {
+	int c;
+
 	if (c < 0)
 	{
 		print("-");

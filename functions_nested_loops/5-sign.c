@@ -1,27 +1,27 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 /**
- * print_sign - check if the charactere is alphabet.
- * @c: the caractere to check.
- * Return: return 1 or 0
+ * print_sign - prints signs
+ * _putchar - prints signs
+ * @n: The character to check
+ * Return: -1, 0, 1
  */
 int print_sign(int n)
 {
-	int c;
-
-	if (c < 0)
+	if (n > 0)
 	{
-		print("-");
-		return (-1);
-	}
-	else if (c > 0 )
-	{
-		printf("+");
+		_putchar('+');
 		return (1);
+	}
+	else if (n == 0)
+	{
+		_putchar('0');
+		return (0);
 	}
 	else
 	{
-		print("0");
-		return (0);
+		_putchar('-');
+		return (-1);
 	}
 }
+

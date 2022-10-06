@@ -1,18 +1,11 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: fonction
+ * Description: Program that prints _putchar, followed by a new line.
  * Return: 0
  */
-
 int main(void)
 {
-	int i;
-	char ch[] = "_putchar";
-
-	for (i = 0; ch[i]; i++)
-		putchar(ch[i]);
-
-	putchar('\n');
+	printf("_putchar\n");
 	return (0);
 }

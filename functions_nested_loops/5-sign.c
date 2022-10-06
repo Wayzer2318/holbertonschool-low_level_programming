@@ -6,6 +6,8 @@
  * Return: return 1 or 0
  */
 
+int c
+
 int print_sign(int n)
 {
 	if (c < 0)

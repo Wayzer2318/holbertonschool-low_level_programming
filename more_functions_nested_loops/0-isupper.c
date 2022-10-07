@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _isupmer - check if it's uper
+ * _isupper - check if it's uper
  * @c: caracter to check
  * Return: Always 0.
  */

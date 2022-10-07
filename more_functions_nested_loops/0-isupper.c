@@ -2,14 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
+ * _isuper - check if it's uper
  *
  * Return: Always 0.
  */
 int _isupper(int c)
 {
-	int c
-
 	if (c >= 'A' && c <= 'Z')
 		return (1);
 	else

@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * _isuper - check if it's uper
- *
+ * _isupmer - check if it's uper
+ * @c: caracter to check
  * Return: Always 0.
  */
 int _isupper(int c)

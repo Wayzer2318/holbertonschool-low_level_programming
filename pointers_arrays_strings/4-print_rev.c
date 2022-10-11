@@ -21,7 +21,7 @@ void print_rev(char *s)
 	int len;
 
 	len = _strlen(s);
-	for (i = 0; i < (len / 2); i++)
+	for (i = 0;i < (len / 2) - 1; i++)
 	{
 		s[len] = s[i];
 	}

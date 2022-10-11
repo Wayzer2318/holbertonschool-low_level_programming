@@ -23,7 +23,7 @@ void print_rev(char *s)
 	len = _strlen(s);
 	for (i = 0; i < (len / 2); i++)
 	{
-		s[len] = s[i];
+		s[len - 1] = s[i];
 	}
 	putchar(*s);
 

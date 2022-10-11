@@ -3,7 +3,7 @@
 /**
  * print_rev - function that prints the string
  * _strlen - function that count
- * @len: lenth
+ * @s: string to reverse
  * Return: 0
  */
 int _strlen(char *s)

@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_rev - function that prints the string
  * _strlen - function that count
+ * print_rev - function that prints the string
  * @s: string to reverse
  * Return: 0
  */

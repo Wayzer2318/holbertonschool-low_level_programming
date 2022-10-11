@@ -21,10 +21,9 @@ void print_rev(char *s)
 	int len;
 
 	len = _strlen(s);
-	for (i = 0;i < (len / 2) - 1; i++)
+	for (i = 0; i < (len - 1) / 2; i++)
 	{
 		s[len] = s[i];
+		len--;
 	}
-	putchar(s[len]);
-
 }

@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * print_rev - function that prints the string
- * _strlen - function that count 
- *@str: variable
+ * _strlen - function that count
+ * @len: lenth
  * Return: 0
  */
 int _strlen(char *s)
@@ -23,7 +23,7 @@ void print_rev(char *s)
 	len = _strlen(s);
 	for (i = len - 1; i >= 0; i--)
 	{
-		
+
 		putchar(s[i]);
 	}
 	putchar('\n');

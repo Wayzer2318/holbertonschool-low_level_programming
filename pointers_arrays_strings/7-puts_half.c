@@ -20,8 +20,8 @@ void puts_half(char *str)
 		x++;
 	while (str[x] != '\0')
 	{
-		_putchar(str[x]);
+		putchar(str[x]);
 		x++;
 	}
-	printf("\n");
+	putchar("\n");
 }

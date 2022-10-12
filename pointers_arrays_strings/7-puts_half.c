@@ -20,7 +20,7 @@ void puts_half(char *str)
 
 	while (x != '\0')
 	{
-		putchar(s[x]);
+		putchar(str[x]);
 		x++;
 	}
 	printf("\n");

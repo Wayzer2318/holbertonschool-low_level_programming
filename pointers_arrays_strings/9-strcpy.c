@@ -11,11 +11,12 @@
 char *_strcpy(char *dest, char *src)
 {
 	int i;
+	int x;
 
 	for (i = 0; i < '\0'; i++)
 	{
 		dest[i] = src[i];
+		putchar(dest[i]);
 	}
-	printf dust;
 	return (0);
 }

@@ -1,0 +1,15 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - check the code
+ * _strcpy - function that copies the string
+ * @dest: variable
+ * @src: variable
+ * Return: Always 0.
+ */
+char *_strcpy(char *dest, char *src)
+{
+	*dest = &src;
+	return (dest);
+}

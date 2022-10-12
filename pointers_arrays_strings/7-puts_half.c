@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * puts2 - function  that prints every other character of a string
+ * puts_half - function  that prints half  of a string
  * @str: variable
  * Return: 0
  */
 
-void puts2(char *str)
+void puts_half(char *str)
 {
 	int i;
 

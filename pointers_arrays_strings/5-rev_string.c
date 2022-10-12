@@ -22,8 +22,9 @@ int _strlen(char *s)
 
 void rev_string(char *s)
 {
-	char y;
+	int y;
 	char x;
+	int i;
 
 	y = _strlen(s);
 

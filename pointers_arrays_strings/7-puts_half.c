@@ -9,17 +9,19 @@
 void puts_half(char *str)
 {
 	int i;
+	int x;
 
-	for (i = 0; str[i] != '\0'; i++)
+	while(str[i] =! '\0')
 	{
-		if ((i % 3) == 0)
-		{
-			putchar(str[i]);
-		}
-		else
-		{
-			continue;
-		}
+		i++;
+	}
+	i--;
+
+	x = i / 2;
+
+	for (; x <= i; x++)
+	{
+		putchar(str[x]);
 	}
 	printf("\n");
 }

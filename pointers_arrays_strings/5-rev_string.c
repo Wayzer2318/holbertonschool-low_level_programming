@@ -1,28 +1,28 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * rev_string - function that reverse the string
- * @s: variable
+ * reverse_array - Function that reverse an array
+ * @a: array
+ * @n: bytes
  * Return: 0
  */
-
-void rev_string(char *s)
+void reverse_array(int *a, int n)
 {
-	int y = 0;
-	char x;
-	int i = 0;
+	int i;
+	int x;
+	int temp[1000];
 
-	while (s[i] != '\0')
+	x = 0;
+	while (x < n)
 	{
-		i++;
+		temp[x] = a[x];
+		x++;
 	}
-	i--;
-
-	for (; i > y; i--)
+	i = 0;
+	while (i < n)
 	{
-		x = s[i];
-		s[i] = s[y];
-		s[y] = x;
-		y++;
+		a[i] = temp[x - 1];
+		x--;
+		i++;
 	}
 }

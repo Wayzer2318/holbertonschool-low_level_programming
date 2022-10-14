@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * puts2 - function  that prints every other character of a string
- * @str: variable
+ * puts2 - function that prints the string
+ * @str: variable with the string
  * Return: 0
  */
-
 void puts2(char *str)
 {
 	int i;
@@ -13,13 +12,7 @@ void puts2(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		if ((i % 2) == 0)
-		{
-			putchar(str[i]);
-		}
-		else
-		{
-			continue;
-		}
+		_putchar(str[i]);
 	}
-	printf("\n");
+	_putchar('\n');
 }

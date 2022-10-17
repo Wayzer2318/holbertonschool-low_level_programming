@@ -6,12 +6,8 @@
  */
 int _strlen_recursion(char *s)
 {
-	int i = 0;
 	if(!*s)
-	return;
-	{
-		i++;
-		_strlen_recursion(s + 1);
-		printf("%d", i);
-	}
+		return;
+	return (1 + _strlen_recursion(s + 1));
+	
 }

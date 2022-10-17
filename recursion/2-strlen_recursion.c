@@ -4,6 +4,7 @@
  * _strlen_recursion - strlen recursion
  * @s: variable
  * return: nothing
+ * return: nothing
  */
 int _strlen_recursion(char *s)
 {

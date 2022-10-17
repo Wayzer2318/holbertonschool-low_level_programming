@@ -3,7 +3,7 @@
 /**
  * factorial - fuction
  * @n: varriable
- * Return - nothing
+ * Return: nothing
  */
 int factorial(int n)
 {

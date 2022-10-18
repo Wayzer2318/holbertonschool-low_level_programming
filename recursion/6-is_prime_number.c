@@ -12,7 +12,7 @@ int help(int i, int n)
 		return (0);
 	if (n % i != 0 && i < n)
 		return (1);
-	return (helper(i + 1, n));
+	return (help(i + 1, n));
 }
 /**
  * is_prime_number - check the prime number

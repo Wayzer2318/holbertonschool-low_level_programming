@@ -4,6 +4,7 @@
  * _pow_recursion - function
  * @x: variable
  * @y: variable
+ * Return: nothing
  */
 int _pow_recursion(int x, int y)
 {

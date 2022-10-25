@@ -5,11 +5,14 @@
  * create_array - function
  * @i: variable
  * @p: pointer
+ * @size: unsigned int
+ * @c: char
+ * Return - nothing
  */
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
-	char *p = (char*) malloc(size * sizeof(char));
+	char *p = (char *) malloc(size * sizeof(char));
 
 	if (size == 0)
 	{

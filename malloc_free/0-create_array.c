@@ -3,11 +3,9 @@
 #include <stdlib.h>
 /**
  * create_array - function
- * @i: variable
- * @p: pointer
  * @size: unsigned int
  * @c: char
- * Return - nothing
+ * Return: nothing
  */
 char *create_array(unsigned int size, char c)
 {

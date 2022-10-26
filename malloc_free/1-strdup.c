@@ -14,7 +14,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	while (s[i] != '/0')
+	while (str[i] != '/0')
 		i++;
 	i++;
 
@@ -29,5 +29,5 @@ char *_strdup(char *str)
 		j++;
 	}
 	return (dup);
-	free(dup;)
+	free(dup);
 }

@@ -8,7 +8,10 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	strcpy(p->name, &name);
-	p->age = &age;
-	strcpy(p->owner, &owner);
+	if (d == NULL)
+	{
+		p->name = name;
+		p->age = age;
+		p->owner = owner;
+	}
 }

@@ -53,7 +53,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	new->name = namecp;
 	new->age = age;
-	new.owner = ownercp;
+	new->owner = ownercp;
 
 	return (new);
 }

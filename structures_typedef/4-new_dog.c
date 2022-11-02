@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include "dog.h"
 /**
- *
- *
- *
+ * _strdup - returns a pointer with a copy of the string
+ * @str: string to copy
+ * Return: char
  */
 char *_strdup(char *str)
 {
 	char *arr;
-	unsigned i;
-	unsigned j;
+	unsigned i = 0;
+	unsigned j = 0;
 
 	if (str == NULL)
 		return ('\0');
@@ -27,6 +27,14 @@ char *_strdup(char *str)
 	arr[j] = 0;
 	return (arr);
 }
+/**
+ * new_dog - function that creates a new dog
+ * @name: dog name
+ * @age: dog age
+ * @owner: owner's dog name
+ * Return: 0
+ */
+
 
 dog_t *new_dog(char *name, float age, char *owner)
 {

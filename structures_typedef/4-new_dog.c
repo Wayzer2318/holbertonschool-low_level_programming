@@ -9,8 +9,8 @@
 char *_strdup(char *str)
 {
 	char *arr;
-	unsigned i = 0;
-	unsigned j = 0;
+	unsigned int i = 0;
+	unsigned int j = 0;
 
 	if (str == NULL)
 		return ('\0');

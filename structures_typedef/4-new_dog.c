@@ -12,15 +12,17 @@ char *_strdup(char *str)
 	unsigned j;
 
 	if (str == NULL)
-		return ('\0')
+		return ('\0');
 	while(str[i])
 		i++;
 	arr = malloc(sizeof(char) * (i + 1));
 	if (arr == NULL)
 		return ('\0');
 	while (str[j])
+	{
 		arr[j] = str[j];
 		j++;
+	}
 	arr[j] = 0;
 	return (arr);
 }

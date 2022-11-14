@@ -2,7 +2,9 @@
 #define _VARIADIC_FUNCTIONS_H_
 #include <stdarg.h>
 #include <stdio.h>
-
+/**
+ * struct check - struct
+ */
 typedef struct check
 {
 	char *chk;

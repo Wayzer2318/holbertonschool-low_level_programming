@@ -4,6 +4,8 @@
 #include <stdio.h>
 /**
  * struct check - struct
+ * @chk: variable
+ * @f: function pointer
  */
 typedef struct check
 {

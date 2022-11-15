@@ -23,7 +23,7 @@ int _strlen(const char *s)
  * @head: the node in the head, first node
  * Return: a new node
  */
-list_t *add_node_end(list_t **head, const char *str);
+list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *result = malloc(sizeof(list_t));
 

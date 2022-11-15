@@ -26,12 +26,23 @@ int _strlen(const char *s)
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *result = malloc(sizeof(list_t));
+	list_t temp;
 
 	if (result == NULL)
 		return ('\0');
 	result->len = strlen(str);
-	result->str = strdup(str);
-	*head.next = result;
-	*head = result;
+	result->str = strdup(str);	
+	if (*head == NULL)
+		*head = result;
+	else
+	{
+		temp = *head;
+		while (temp != NULL)
+		{
+			temp = temp->next;
+		}
+		temp->next = result;
+	}
+	
 	return (result);
 }

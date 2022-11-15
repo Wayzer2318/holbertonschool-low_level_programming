@@ -20,6 +20,7 @@ int _strlen(const char *s)
 /**
  * add_node - add a new node
  * @str: string to add
+ * @head: the node in the head, first node
  * Return: a new node
  */
 list_t *add_node(list_t **head, const char *str)

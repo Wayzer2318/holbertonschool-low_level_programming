@@ -1,5 +1,5 @@
 #include "lists.h"
-#incldue <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 /**
  *
@@ -13,7 +13,7 @@ size_t print_listint(const listint_t *h)
 	while (h)
 	{
 		printf("%i/n", h->n);
-		h->next = h;
+		h = h->next;
 		counter++;
 	}
 	return (counter);

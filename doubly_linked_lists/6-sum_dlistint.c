@@ -9,4 +9,5 @@ int sum_dlistint(dlistint_t *head)
 		result += head->n;
 		head = head->next;
 	}
+	return (result);
 }

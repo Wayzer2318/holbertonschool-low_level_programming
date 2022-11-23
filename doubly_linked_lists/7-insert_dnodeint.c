@@ -2,7 +2,8 @@
 /**
  * insert_dnodeint_at_index - Function that inserts a
  * new node at a given position.
- * @h: address of the first node (double pointer)* @idx: index of the list where the new node should be added.
+ * @h: address of the first node (double pointer)
+ * @idx: index of the list where the new node should be added.
  * @n: data to enter in the new node
  * Return: address of the new node, or NULL if it failed, if
  * it is not possible to add the new node at index idx, do not

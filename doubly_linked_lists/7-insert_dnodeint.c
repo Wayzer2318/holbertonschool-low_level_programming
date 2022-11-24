@@ -11,7 +11,7 @@
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
-	dlistint_t *tmp = *h, *tmpcount = *h, *tmp2;
+	dlistint_t *tmp = *h, *tmp2;
 	dlistint_t *new;
 	unsigned int counter = 0;
 
